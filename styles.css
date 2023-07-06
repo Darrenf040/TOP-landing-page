@@ -1,0 +1,211 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin: 0;
+}
+h1{
+    margin:0;
+}
+
+/*--------HEADER SECTION-------*/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.link-container{
+    display: flex;
+    gap: 20px;
+}
+.logo-container a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.link-container a, .text-container p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+/*---------HERO SECTOIN--------*/
+.hero-container{
+    background-color: #1f2937;
+    padding: 0 15%;
+    height: 100vh;
+}
+.content-position-container{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    /* justify-self: center; */
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.hero-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-image-container {
+    overflow: hidden;
+}
+.text-container{
+    width: 300px;
+    flex-shrink: 0;
+}
+.text-container h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.text-container p, .text-container h1{
+    margin-bottom: 15px;
+}
+.text-container button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 15px;
+    border-style: none;
+}
+
+/*--------SUPPLEMENT SECTION------*/
+.information-container{
+    padding: 60px 0;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow: hidden; 
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    gap: 8px;
+}
+.card-text p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.random-info-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/*-------QUOTE SECTION-------*/
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.quote-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-grow: .2;
+    flex-basis: 300px;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+.quote-text-container h3{
+    align-self: flex-end;
+}
+.quote-text-container h2{
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/*--------CALL TO ACTION---------*/
+.action-section-container{
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+.action-container{
+    display: flex;
+    background-color: #3882f6;
+    width: 600px;
+    padding: 50px 80px;
+    justify-content: space-between;
+    border-radius:8px ;
+    flex-shrink: 0;
+    flex-basis: 400px;
+    gap: 10px;
+    flex-grow: .2;
+
+}
+.action-section-container button{
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    align-self: flex-end;
+}
+.call-to-action-container{
+    color: white;
+}
+.call-to-action-container h3{
+    font-size: 16px;
+}
+
+/*--------FOOTER SECTION---------*/
+footer{
+    background-color: #1f2937;
+    padding: 20px 0;
+}
+footer p{
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 18px;
+}
+section{
+    height: 100vh;
+}
